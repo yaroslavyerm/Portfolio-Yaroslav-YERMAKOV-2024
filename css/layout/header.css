@@ -1,0 +1,95 @@
+.menu_desktop{
+    display: none;
+}
+
+.menu_mobile_control{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.menu_mobile_control a{
+    width: 3.5rem;
+    height: 3.5rem;
+}
+
+.menu_mobile_control a svg{
+    width: 3.5rem;
+    height: 3.5rem;
+}
+
+.menu_mobile_control button{
+    background: none;
+    border: none;
+    width: fit-content;
+    height: auto;
+}
+
+.noscroll,
+.noscroll body {
+    overflow: hidden;
+}
+
+.menu_overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--pale-lavender);
+    z-index: 100;
+}
+
+.menu{
+    list-style: none;
+}
+
+#menu-header-mobile{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.menu_desktop_nav div ul a{
+    transition: all 0.3s ease-out;
+}
+
+@media (min-width: 1024px) {
+
+        .menu_mobile_control, .menu_overlay {
+                display: none;
+            }
+
+    .menu_desktop{
+        display: flex;
+        padding: 15px ;
+        justify-content: space-between;
+    }
+
+
+
+        .menu_desktop a {
+            width: 3.5rem;
+            height: 3.5rem;
+        }
+    
+        .menu_desktop a svg {
+            width: 3.5rem;
+            height: 3.5rem;
+        }
+
+        .menu_desktop_nav div ul{
+           
+            display: flex;
+            gap: 2rem;
+        }
+
+        .menu_desktop_nav div ul li a{
+            font-size: var(--desktop_text_small);
+        }
+
+                        .menu_desktop_nav div ul a:hover{
+            font-size: 18px;
+        }
+}
