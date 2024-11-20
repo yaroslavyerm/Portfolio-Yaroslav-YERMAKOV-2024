@@ -1,0 +1,25 @@
+:root{
+    /* Text-size styles */
+            /* base size: mobile_text_regular (16px) */
+            --desktop_title: 4rem;
+            --desktop_subheading: 3rem;
+            --desktop_text_big: 1.5rem;
+            --desktop_text_regular: 1.25rem;
+            --desktop_text_small: 1rem;
+            --desktop_tags: 1rem;
+            --mobile_text_regular: 1rem;
+            --mobile_title: 2rem;
+            --mobile_subheading: 1.5rem;
+            --mobile_text_small: 0.875rem;
+    
+        /* Effect styles */
+        --shadow_1: 2px 2px 1px rgba(40, 0, 137, 0.2), -1px -1px 1px rgba(229, 230, 255, 0.5);
+        --shadow_2: 2px 2px 1px rgba(98, 137, 0, 0.2), -1px -1px 1px rgba(248, 255, 229, 0.5);
+
+        /* Color styles */
+        --lime: #CFFF5A;
+        --dark-purple: #280089;
+        --pale-lavender: #D1D2FF;
+        --lavender: #9C9EFF;
+        --form-purple: #E5E6FF;
+}
