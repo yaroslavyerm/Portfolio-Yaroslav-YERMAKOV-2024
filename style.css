@@ -1,0 +1,36 @@
+/*
+Theme Name: Portfolio
+Theme URI: https://yermakov.fr/mesthemes
+Author: Yaroslav Yermakov
+Author URI: https://yermakov.fr
+Description: Theme for my portfolio
+Version: 0.1
+Tags: portfolio
+*/
+
+@import "css/vendors/normalize.css";
+
+@import "css/utils/variables.css";
+
+@import "css/base/main.css";
+@import "css/base/media.css";
+
+@import "css/layout/header.css";
+@import "css/layout/footer.css";
+
+@import "css/components/index.css";
+@import "css/components/cards.css";
+@import "css/components/button.css";
+@import "css/components/contact.css";
+@import "css/components/select.css";
+@import "css/components/single-project.css";
+@import "css/components/404.css";
+
+@import "fonts/ranade.css";
+
+@font-face {
+    font-family: 'TanPearl';
+    src: url('fonts/tan-pearl.otf');
+    font-weight: 400;
+    font-style: normal;
+}
