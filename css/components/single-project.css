@@ -1,0 +1,137 @@
+.project_tags{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    row-gap: 5px;
+    text-decoration: underline;
+}
+
+.wp-block-gallery{
+    gap: 20px;
+}
+
+@media (min-width: 1024px){
+    .wrap_post{
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        gap: 20px;
+        margin: 0 30px;
+    }
+    
+    .wrap_post h1{
+        grid-column: span 6;
+    }
+
+    .project_tags{
+        grid-column: span 4;
+       
+    }
+
+    .project_tags a{
+        font-size: var(--desktop_tags);
+    }
+
+    .content{
+        grid-column: span 6;
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        grid-template-rows: auto;
+        gap: 20px;
+    }
+
+    .button_post{
+        width: fit-content;
+    }
+
+    .post-top-wrap{
+        grid-column: span 6;
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        gap: 20px;
+    }
+
+    .post-top-info{
+        grid-column: span 4;
+    }
+
+    .post-img{
+        grid-column: span 2;
+    }
+
+    .post-div{
+        grid-column: span 6;
+    }
+
+    .post-div>div{
+                display: flex;
+                    gap: 20px;
+    }
+
+    .post-div>div>p{
+        flex: 4;
+    }
+    .post-div>div>div, .post-div>div>figure{
+        flex: 2;
+    }
+
+    .post-div1{
+
+    }
+
+    .post-div2>div{
+        flex-direction: row-reverse;
+    }
+
+    .post-div2>div>p{
+        text-align: right;
+    }
+
+    .full{
+        grid-column: span 6;
+    }
+
+    .full>div{
+        grid-column: span 6;
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        gap: 20px;
+    }
+
+    .full>div>div{
+        grid-column: span 6;
+    }
+
+    .full>div>p{
+        grid-column: span 4;
+    }
+
+    .side-left{
+        grid-column: span 4;
+    }
+
+    .side-right{
+        grid-column: 3 / span 4;
+    }
+
+    .div-equal{
+        grid-column: span 6;
+    }
+
+    .div-equal>div{
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        gap: 20px;
+    }
+
+    .div-equal>div>figure{
+        grid-column: span 3;
+    }
+
+    .gatsby{
+        grid-column: span 6;
+    }
+
+    .gatsby>div>figure>img{
+        width: 100% !important;
+    }
+}

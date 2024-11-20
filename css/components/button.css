@@ -1,0 +1,40 @@
+.button{
+    font-size: var(--desktop_text_regular);
+    display: block;
+    padding: 15px 20px;
+    border-radius: 5px;
+    background-color: var(--pale_lavender);
+    text-align: center;
+    box-shadow: var(--shadow_1);
+    border: none;
+    color: var(--dark_purple);
+    font-family: 'Ranade-Variable';
+    font-weight: 300;
+    transition: all 0.3s ease-out;
+    cursor: pointer;
+}
+
+.contact_form button{
+    width: 100%;
+}
+
+.button_select{
+    font-size: var(--desktop_text_small);
+}
+
+.button:hover{
+    background-color: var(--lime);
+    box-shadow: var(--shadow_2);
+}
+
+.button:active{
+    background-color: var(--dark_purple);
+    color: var(--pale_lavender);
+}
+
+@media (min-width: 1024px){
+    .button_post{
+        grid-column: span 2 !important;
+        height: fit-content;
+    }
+}
