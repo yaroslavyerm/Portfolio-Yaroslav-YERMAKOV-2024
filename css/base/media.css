@@ -1,0 +1,36 @@
+img,
+video {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.animate1{
+    animation: animate1 3000ms infinite ease-in-out alternate;
+}
+
+@keyframes animate1 {
+    from{
+        padding-bottom: 1.5rem;
+        padding-top: 0;
+    }
+    to{
+        padding-bottom: 0;
+        padding-top: 1.5rem;
+    }
+}
+
+.animate2{
+    animation: animate2 3000ms infinite ease-in-out alternate;
+}
+
+@keyframes animate2 {
+    from{
+        padding-bottom: 0;
+        padding-top: 1.5rem;
+    }
+    to{
+        padding-bottom: 1.5rem;
+        padding-top: 0;
+    }
+}
